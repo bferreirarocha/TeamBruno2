@@ -1,0 +1,14 @@
+.Main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 74px 1fr;
+  header {
+    background-color: aqua;
+  }
+  section {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+}

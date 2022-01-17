@@ -1,0 +1,19 @@
+.App {
+  height: 100%;
+  position: fixed;
+  max-height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+  /** base layout structure **/
+  display: grid;
+  grid-template-columns: 4.89vw 1fr;
+  grid-template-rows: 100vh;
+  grid-template-areas: "nav main";
+  overflow: hidden;
+  nav {
+    background-color: red;
+  }
+  main {
+  }
+}

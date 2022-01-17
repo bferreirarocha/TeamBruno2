@@ -1,0 +1,30 @@
+.identity-layout {
+  background: #d3d3d3;
+  height: 100%;
+  .leftContent {
+  }
+  .rightContent {
+  }
+  .container {
+    background-color: white;
+    padding: 20px;
+
+    .wrapper {
+      margin: 10px;
+      padding: 5px;
+      border: 1px solid red;
+      &.MenuCards {
+        background-color: green;
+      }
+      &.IdCards {
+        background-color: yellow;
+      }
+      &.Templates {
+        background-color: aqua;
+        button {
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
